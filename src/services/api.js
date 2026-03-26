@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // 使用环境变量
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://xinxi-town-1.onrender.com/api';
 
 // 创建axios实例
 const api = axios.create({
